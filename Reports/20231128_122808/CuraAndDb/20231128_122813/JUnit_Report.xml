@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="CuraAndDb" time="69.055" tests="4" failures="0" errors="0">
+   <testsuite name="CuraAndDb" tests="4" failures="0" errors="0" time="69.055" skipped="0" timestamp="2023-11-28 12:31:27" hostname="Praveen Reddy - LAPTOP-FO4697CL" id="Test Suites/CuraAndDb">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\phlv5\\Katalon Studio\\PHPTravel\\Reports\\20231128_122808\\CuraAndDb\\20231128_122813"/>
+         <property name="logFiles" value="C:\\Users\\phlv5\\Katalon Studio\\PHPTravel\\Reports\\20231128_122808\\CuraAndDb\\20231128_122813\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\phlv5\\Katalon Studio\\PHPTravel\\Reports\\20231128_122808\\CuraAndDb\\20231128_122813\\1701154906727.png, C:\\Users\\phlv5\\Katalon Studio\\PHPTravel\\Reports\\20231128_122808\\CuraAndDb\\20231128_122813\\1701154921730.png, C:\\Users\\phlv5\\Katalon Studio\\PHPTravel\\Reports\\20231128_122808\\CuraAndDb\\20231128_122813\\1701154936992.png, C:\\Users\\phlv5\\Katalon Studio\\PHPTravel\\Reports\\20231128_122808\\CuraAndDb\\20231128_122813\\1701154954485.png"/>
+         <property name="hostName" value="Praveen Reddy - LAPTOP-FO4697CL"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="8.6.8.208"/>
+         <property name="browser" value="Chrome 119.0.0.0"/>
+         <property name="hostAddress" value="192.168.116.65"/>
+         <property name="sessionId" value="74f688eafff44ba7c7c8ff912480bcb7"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/CompanySearchDB" time="22.836" classname="Test Cases/CompanySearchDB" status="PASSED">
+         <system-out><![CDATA[2023-11-28 12:31:27 - [TEST_CASE][PASSED] - Test Cases/CompanySearchDB: Test Cases/CompanySearchDB
+
+2023-11-28 12:31:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-11-28 12:31:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-11-28 12:31:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-11-28 12:31:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-11-28 12:31:32 - [TEST_STEP][PASSED] - navigateToUrl("https://computer-database.gatling.io/computers"): Navigate to 'https://computer-database.gatling.io/computers' successfully
+
+2023-11-28 12:31:35 - [MESSAGE][PASSED] - Navigate to 'https://computer-database.gatling.io/computers' successfully
+
+2023-11-28 12:31:35 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-11-28 12:31:35 - [MESSAGE][PASSED] - Current window maximized
+
+2023-11-28 12:31:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/ComputerSearchBD/Page_Computers database/input_Computer database_f"), "HP"): Text 'HP' is set on object 'Object Repository/ComputerSearchBD/Page_Computers database/input_Computer database_f'
+
+2023-11-28 12:31:36 - [MESSAGE][PASSED] - Text 'HP' is set on object 'Object Repository/ComputerSearchBD/Page_Computers database/input_Computer database_f'
+
+2023-11-28 12:31:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ComputerSearchBD/Page_Computers database/input_Computer database_searchsubmit")): Object: 'Object Repository/ComputerSearchBD/Page_Computers database/input_Computer database_searchsubmit' is clicked on
+
+2023-11-28 12:31:38 - [MESSAGE][PASSED] - Object: 'Object Repository/ComputerSearchBD/Page_Computers database/input_Computer database_searchsubmit' is clicked on
+
+2023-11-28 12:31:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ComputerSearchBD/Page_Computers database/a_HP 2133 Mini-Note PC")): Object: 'Object Repository/ComputerSearchBD/Page_Computers database/a_HP 2133 Mini-Note PC' is clicked on
+
+2023-11-28 12:31:39 - [MESSAGE][PASSED] - Object: 'Object Repository/ComputerSearchBD/Page_Computers database/a_HP 2133 Mini-Note PC' is clicked on
+
+2023-11-28 12:31:39 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/ComputerSearchBD/Page_Computers database/select_-- Choose a company --Apple Inc.Thin_aed4be"), "21", true): All options with value '21' are selected in object 'Object Repository/ComputerSearchBD/Page_Computers database/select_-- Choose a company --Apple Inc.Thin_aed4be'  using regular expression
+
+2023-11-28 12:31:42 - [MESSAGE][PASSED] - All options with value '21' are selected in object 'Object Repository/ComputerSearchBD/Page_Computers database/select_-- Choose a company --Apple Inc.Thin_aed4be'  using regular expression
+
+2023-11-28 12:31:42 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/ComputerSearchBD/Page_Computers database/select_-- Choose a company --Apple Inc.Thin_aed4be"), "26", true): All options with value '26' are selected in object 'Object Repository/ComputerSearchBD/Page_Computers database/select_-- Choose a company --Apple Inc.Thin_aed4be'  using regular expression
+
+2023-11-28 12:31:45 - [MESSAGE][PASSED] - All options with value '26' are selected in object 'Object Repository/ComputerSearchBD/Page_Computers database/select_-- Choose a company --Apple Inc.Thin_aed4be'  using regular expression
+
+2023-11-28 12:31:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ComputerSearchBD/Page_Computers database/input_or_btn primary")): Object: 'Object Repository/ComputerSearchBD/Page_Computers database/input_or_btn primary' is clicked on
+
+2023-11-28 12:31:46 - [MESSAGE][PASSED] - Object: 'Object Repository/ComputerSearchBD/Page_Computers database/input_or_btn primary' is clicked on
+
+2023-11-28 12:31:46 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2023-11-28 12:31:48 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-11-28 12:31:48 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\phlv5\\Katalon Studio\\PHPTravel\\Reports\\20231128_122808\\CuraAndDb\\20231128_122813\\1701154906727.png]]
+
+2023-11-28 12:31:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ComputerSearchBD/Page_Computers database/a_Computer database")): Object: 'Object Repository/ComputerSearchBD/Page_Computers database/a_Computer database' is clicked on
+
+2023-11-28 12:31:49 - [MESSAGE][PASSED] - Object: 'Object Repository/ComputerSearchBD/Page_Computers database/a_Computer database' is clicked on
+
+2023-11-28 12:31:49 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-11-28 12:31:50 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CuraHealthLogin" time="17.881" classname="Test Cases/CuraHealthLogin" status="PASSED">
+         <system-out><![CDATA[2023-11-28 12:31:50 - [TEST_CASE][PASSED] - Test Cases/CuraHealthLogin: Test Cases/CuraHealthLogin
+
+2023-11-28 12:31:51 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-11-28 12:31:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-11-28 12:31:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-11-28 12:31:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-11-28 12:31:52 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2023-11-28 12:31:56 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2023-11-28 12:31:56 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-11-28 12:31:56 - [MESSAGE][PASSED] - Current window maximized
+
+2023-11-28 12:31:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CuraHealth/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars")): Object: 'Object Repository/CuraHealth/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars' is clicked on
+
+2023-11-28 12:31:57 - [MESSAGE][PASSED] - Object: 'Object Repository/CuraHealth/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars' is clicked on
+
+2023-11-28 12:31:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CuraHealth/Page_CURA Healthcare Service/a_Login")): Object: 'Object Repository/CuraHealth/Page_CURA Healthcare Service/a_Login' is clicked on
+
+2023-11-28 12:31:58 - [MESSAGE][PASSED] - Object: 'Object Repository/CuraHealth/Page_CURA Healthcare Service/a_Login' is clicked on
+
+2023-11-28 12:31:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CuraHealth/Page_CURA Healthcare Service/input_Demo account_form-control")): Object: 'Object Repository/CuraHealth/Page_CURA Healthcare Service/input_Demo account_form-control' is clicked on
+
+2023-11-28 12:31:59 - [MESSAGE][PASSED] - Object: 'Object Repository/CuraHealth/Page_CURA Healthcare Service/input_Demo account_form-control' is clicked on
+
+2023-11-28 12:31:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CuraHealth/Page_CURA Healthcare Service/input_Demo account_form-control_1")): Object: 'Object Repository/CuraHealth/Page_CURA Healthcare Service/input_Demo account_form-control_1' is clicked on
+
+2023-11-28 12:31:59 - [MESSAGE][PASSED] - Object: 'Object Repository/CuraHealth/Page_CURA Healthcare Service/input_Demo account_form-control_1' is clicked on
+
+2023-11-28 12:31:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CuraHealth/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/CuraHealth/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2023-11-28 12:32:01 - [MESSAGE][PASSED] - Object: 'Object Repository/CuraHealth/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2023-11-28 12:32:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CuraHealth/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5")): Object: 'Object Repository/CuraHealth/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5' is clicked on
+
+2023-11-28 12:32:01 - [MESSAGE][PASSED] - Object: 'Object Repository/CuraHealth/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5' is clicked on
+
+2023-11-28 12:32:01 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2023-11-28 12:32:04 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-11-28 12:32:06 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\phlv5\\Katalon Studio\\PHPTravel\\Reports\\20231128_122808\\CuraAndDb\\20231128_122813\\1701154921730.png]]
+
+2023-11-28 12:32:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CuraHealth/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle")): Object: 'Object Repository/CuraHealth/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle' is clicked on
+
+2023-11-28 12:32:07 - [MESSAGE][PASSED] - Object: 'Object Repository/CuraHealth/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle' is clicked on
+
+2023-11-28 12:32:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CuraHealth/Page_CURA Healthcare Service/a_Home")): Object: 'Object Repository/CuraHealth/Page_CURA Healthcare Service/a_Home' is clicked on
+
+2023-11-28 12:32:08 - [MESSAGE][PASSED] - Object: 'Object Repository/CuraHealth/Page_CURA Healthcare Service/a_Home' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LaptopSearchDB" time="16.377" classname="Test Cases/LaptopSearchDB" status="PASSED">
+         <system-out><![CDATA[2023-11-28 12:32:08 - [TEST_CASE][PASSED] - Test Cases/LaptopSearchDB: Test Cases/LaptopSearchDB
+
+2023-11-28 12:32:09 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-11-28 12:32:09 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-11-28 12:32:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-11-28 12:32:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-11-28 12:32:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-11-28 12:32:12 - [TEST_STEP][PASSED] - navigateToUrl("https://computer-database.gatling.io/computers"): Navigate to 'https://computer-database.gatling.io/computers' successfully
+
+2023-11-28 12:32:13 - [MESSAGE][PASSED] - Navigate to 'https://computer-database.gatling.io/computers' successfully
+
+2023-11-28 12:32:13 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-11-28 12:32:13 - [MESSAGE][PASSED] - Current window maximized
+
+2023-11-28 12:32:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/LaptopSearchDB/Page_Computers database/input_Computer database_f"), "Del"): Text 'Del' is set on object 'Object Repository/LaptopSearchDB/Page_Computers database/input_Computer database_f'
+
+2023-11-28 12:32:14 - [MESSAGE][PASSED] - Text 'Del' is set on object 'Object Repository/LaptopSearchDB/Page_Computers database/input_Computer database_f'
+
+2023-11-28 12:32:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LaptopSearchDB/Page_Computers database/input_Computer database_searchsubmit")): Object: 'Object Repository/LaptopSearchDB/Page_Computers database/input_Computer database_searchsubmit' is clicked on
+
+2023-11-28 12:32:15 - [MESSAGE][PASSED] - Object: 'Object Repository/LaptopSearchDB/Page_Computers database/input_Computer database_searchsubmit' is clicked on
+
+2023-11-28 12:32:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LaptopSearchDB/Page_Computers database/a_Dell Inspiron 560 Desktop Computer")): Object: 'Object Repository/LaptopSearchDB/Page_Computers database/a_Dell Inspiron 560 Desktop Computer' is clicked on
+
+2023-11-28 12:32:16 - [MESSAGE][PASSED] - Object: 'Object Repository/LaptopSearchDB/Page_Computers database/a_Dell Inspiron 560 Desktop Computer' is clicked on
+
+2023-11-28 12:32:16 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2023-11-28 12:32:18 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-11-28 12:32:18 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\phlv5\\Katalon Studio\\PHPTravel\\Reports\\20231128_122808\\CuraAndDb\\20231128_122813\\1701154936992.png]]
+
+2023-11-28 12:32:18 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/LaptopSearchDB/Page_Computers database/select_-- Choose a company --Apple Inc.Thin_aed4be"), "13", true): All options with value '13' are selected in object 'Object Repository/LaptopSearchDB/Page_Computers database/select_-- Choose a company --Apple Inc.Thin_aed4be'  using regular expression
+
+2023-11-28 12:32:20 - [MESSAGE][PASSED] - All options with value '13' are selected in object 'Object Repository/LaptopSearchDB/Page_Computers database/select_-- Choose a company --Apple Inc.Thin_aed4be'  using regular expression
+
+2023-11-28 12:32:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LaptopSearchDB/Page_Computers database/input_or_btn primary")): Object: 'Object Repository/LaptopSearchDB/Page_Computers database/input_or_btn primary' is clicked on
+
+2023-11-28 12:32:22 - [MESSAGE][PASSED] - Object: 'Object Repository/LaptopSearchDB/Page_Computers database/input_or_btn primary' is clicked on
+
+2023-11-28 12:32:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LaptopSearchDB/Page_Computers database/a_Computer database")): Object: 'Object Repository/LaptopSearchDB/Page_Computers database/a_Computer database' is clicked on
+
+2023-11-28 12:32:24 - [MESSAGE][PASSED] - Object: 'Object Repository/LaptopSearchDB/Page_Computers database/a_Computer database' is clicked on
+
+2023-11-28 12:32:24 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-11-28 12:32:24 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LoginApplitools" time="11.35" classname="Test Cases/LoginApplitools" status="PASSED">
+         <system-out><![CDATA[2023-11-28 12:32:25 - [TEST_CASE][PASSED] - Test Cases/LoginApplitools: Test Cases/LoginApplitools
+
+2023-11-28 12:32:25 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-11-28 12:32:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-11-28 12:32:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-11-28 12:32:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-11-28 12:32:27 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.applitools.com/"): Navigate to 'https://demo.applitools.com/' successfully
+
+2023-11-28 12:32:29 - [MESSAGE][PASSED] - Navigate to 'https://demo.applitools.com/' successfully
+
+2023-11-28 12:32:29 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-11-28 12:32:29 - [MESSAGE][PASSED] - Current window maximized
+
+2023-11-28 12:32:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/ApplitetoolsLogin/Page_ACME Demo App by Applitools/input_Username_username"), "Test123"): Text 'Test123' is set on object 'Object Repository/ApplitetoolsLogin/Page_ACME Demo App by Applitools/input_Username_username'
+
+2023-11-28 12:32:30 - [MESSAGE][PASSED] - Text 'Test123' is set on object 'Object Repository/ApplitetoolsLogin/Page_ACME Demo App by Applitools/input_Username_username'
+
+2023-11-28 12:32:30 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/ApplitetoolsLogin/Page_ACME Demo App by Applitools/input_Password_password"), "cvW8qx4B2o3F4VwP/kNsqA=="): Text ****** has been set on object 'Object Repository/ApplitetoolsLogin/Page_ACME Demo App by Applitools/input_Password_password'
+
+2023-11-28 12:32:31 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/ApplitetoolsLogin/Page_ACME Demo App by Applitools/input_Password_password'
+
+2023-11-28 12:32:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ApplitetoolsLogin/Page_ACME Demo App by Applitools/a_Sign in")): Object: 'Object Repository/ApplitetoolsLogin/Page_ACME Demo App by Applitools/a_Sign in' is clicked on
+
+2023-11-28 12:32:32 - [MESSAGE][PASSED] - Object: 'Object Repository/ApplitetoolsLogin/Page_ACME Demo App by Applitools/a_Sign in' is clicked on
+
+2023-11-28 12:32:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/ApplitetoolsLogin/Page_ACME demo app/input_text"), "Starbucks"): Text 'Starbucks' is set on object 'Object Repository/ApplitetoolsLogin/Page_ACME demo app/input_text'
+
+2023-11-28 12:32:33 - [MESSAGE][PASSED] - Text 'Starbucks' is set on object 'Object Repository/ApplitetoolsLogin/Page_ACME demo app/input_text'
+
+2023-11-28 12:32:33 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/ApplitetoolsLogin/Page_ACME demo app/input_text"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/ApplitetoolsLogin/Page_ACME demo app/input_text'
+
+2023-11-28 12:32:34 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/ApplitetoolsLogin/Page_ACME demo app/input_text'
+
+2023-11-28 12:32:34 - [TEST_STEP][PASSED] - takeElementScreenshot(findTestObject("ApplitetoolsLogin/Page_ACME demo app/span_View Statement")): Taking screenshot successfully
+
+2023-11-28 12:32:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-28 12:32:35 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-11-28 12:32:35 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\phlv5\\Katalon Studio\\PHPTravel\\Reports\\20231128_122808\\CuraAndDb\\20231128_122813\\1701154954485.png]]
+
+2023-11-28 12:32:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ApplitetoolsLogin/Page_ACME demo app/span_View Statement")): Object: 'Object Repository/ApplitetoolsLogin/Page_ACME demo app/span_View Statement' is clicked on
+
+2023-11-28 12:32:35 - [MESSAGE][PASSED] - Object: 'Object Repository/ApplitetoolsLogin/Page_ACME demo app/span_View Statement' is clicked on
+
+2023-11-28 12:32:35 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-11-28 12:32:36 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-11-28 12:31:27 - [TEST_SUITE][PASSED] - CuraAndDb: Test Cases/LoginApplitools]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

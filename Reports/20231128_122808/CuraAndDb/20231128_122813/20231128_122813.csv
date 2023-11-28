@@ -1,0 +1,56 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+CuraAndDb,Chrome 119.0.0.0,,,2023-11-28 12:31:27,2023-11-28 12:32:36,1m - 9.055s,PASSED
+,,,,,,,
+Test Cases/CompanySearchDB,Chrome 119.0.0.0,,,2023-11-28 12:31:27,2023-11-28 12:31:50,22.836s,PASSED
+"openBrowser("""")",Chrome 119.0.0.0,,,2023-11-28 12:31:28,2023-11-28 12:31:32,3.722s,PASSED
+"navigateToUrl(""https://computer-database.gatling.io/computers"")",Chrome 119.0.0.0,,,2023-11-28 12:31:32,2023-11-28 12:31:35,2.633s,PASSED
+maximizeWindow(),Chrome 119.0.0.0,,,2023-11-28 12:31:35,2023-11-28 12:31:35,0.200s,PASSED
+"setText(findTestObject(""Object Repository/ComputerSearchBD/Page_Computers database/input_Computer database_f""), ""HP"")",Chrome 119.0.0.0,,,2023-11-28 12:31:35,2023-11-28 12:31:36,1.080s,PASSED
+"click(findTestObject(""Object Repository/ComputerSearchBD/Page_Computers database/input_Computer database_searchsubmit""))",Chrome 119.0.0.0,,,2023-11-28 12:31:36,2023-11-28 12:31:38,2.125s,PASSED
+"click(findTestObject(""Object Repository/ComputerSearchBD/Page_Computers database/a_HP 2133 Mini-Note PC""))",Chrome 119.0.0.0,,,2023-11-28 12:31:38,2023-11-28 12:31:39,1.226s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/ComputerSearchBD/Page_Computers database/select_-- Choose a company --Apple Inc.Thin_aed4be""), ""21"", true)",Chrome 119.0.0.0,,,2023-11-28 12:31:39,2023-11-28 12:31:42,2.939s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/ComputerSearchBD/Page_Computers database/select_-- Choose a company --Apple Inc.Thin_aed4be""), ""26"", true)",Chrome 119.0.0.0,,,2023-11-28 12:31:42,2023-11-28 12:31:45,2.458s,PASSED
+"click(findTestObject(""Object Repository/ComputerSearchBD/Page_Computers database/input_or_btn primary""))",Chrome 119.0.0.0,,,2023-11-28 12:31:45,2023-11-28 12:31:46,1.526s,PASSED
+takeFullPageScreenshot(),Chrome 119.0.0.0,,,2023-11-28 12:31:46,2023-11-28 12:31:48,1.989s,PASSED
+"click(findTestObject(""Object Repository/ComputerSearchBD/Page_Computers database/a_Computer database""))",Chrome 119.0.0.0,,,2023-11-28 12:31:48,2023-11-28 12:31:49,1.236s,PASSED
+closeBrowser(),Chrome 119.0.0.0,,,2023-11-28 12:31:49,2023-11-28 12:31:50,0.776s,PASSED
+,,,,,,,
+Test Cases/CuraHealthLogin,Chrome 119.0.0.0,,,2023-11-28 12:31:50,2023-11-28 12:32:08,17.881s,PASSED
+"openBrowser("""")",Chrome 119.0.0.0,,,2023-11-28 12:31:51,2023-11-28 12:31:52,1.522s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 119.0.0.0,,,2023-11-28 12:31:52,2023-11-28 12:31:56,3.813s,PASSED
+maximizeWindow(),Chrome 119.0.0.0,,,2023-11-28 12:31:56,2023-11-28 12:31:56,0.173s,PASSED
+"click(findTestObject(""Object Repository/CuraHealth/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars""))",Chrome 119.0.0.0,,,2023-11-28 12:31:56,2023-11-28 12:31:57,0.567s,PASSED
+"click(findTestObject(""Object Repository/CuraHealth/Page_CURA Healthcare Service/a_Login""))",Chrome 119.0.0.0,,,2023-11-28 12:31:57,2023-11-28 12:31:58,1.289s,PASSED
+"click(findTestObject(""Object Repository/CuraHealth/Page_CURA Healthcare Service/input_Demo account_form-control""))",Chrome 119.0.0.0,,,2023-11-28 12:31:58,2023-11-28 12:31:59,0.608s,PASSED
+"click(findTestObject(""Object Repository/CuraHealth/Page_CURA Healthcare Service/input_Demo account_form-control_1""))",Chrome 119.0.0.0,,,2023-11-28 12:31:59,2023-11-28 12:31:59,0.525s,PASSED
+"click(findTestObject(""Object Repository/CuraHealth/Page_CURA Healthcare Service/button_Login""))",Chrome 119.0.0.0,,,2023-11-28 12:31:59,2023-11-28 12:32:01,1.326s,PASSED
+"click(findTestObject(""Object Repository/CuraHealth/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5""))",Chrome 119.0.0.0,,,2023-11-28 12:32:01,2023-11-28 12:32:01,0.625s,PASSED
+takeFullPageScreenshot(),Chrome 119.0.0.0,,,2023-11-28 12:32:01,2023-11-28 12:32:06,4.905s,PASSED
+"click(findTestObject(""Object Repository/CuraHealth/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle""))",Chrome 119.0.0.0,,,2023-11-28 12:32:06,2023-11-28 12:32:07,0.565s,PASSED
+"click(findTestObject(""Object Repository/CuraHealth/Page_CURA Healthcare Service/a_Home""))",Chrome 119.0.0.0,,,2023-11-28 12:32:07,2023-11-28 12:32:08,1.398s,PASSED
+,,,,,,,
+Test Cases/LaptopSearchDB,Chrome 119.0.0.0,,,2023-11-28 12:32:08,2023-11-28 12:32:25,16.377s,PASSED
+"openBrowser("""")",Chrome 119.0.0.0,,,2023-11-28 12:32:09,2023-11-28 12:32:12,2.687s,PASSED
+"navigateToUrl(""https://computer-database.gatling.io/computers"")",Chrome 119.0.0.0,,,2023-11-28 12:32:12,2023-11-28 12:32:13,1.454s,PASSED
+maximizeWindow(),Chrome 119.0.0.0,,,2023-11-28 12:32:13,2023-11-28 12:32:13,0.146s,PASSED
+"setText(findTestObject(""Object Repository/LaptopSearchDB/Page_Computers database/input_Computer database_f""), ""Del"")",Chrome 119.0.0.0,,,2023-11-28 12:32:13,2023-11-28 12:32:14,0.952s,PASSED
+"click(findTestObject(""Object Repository/LaptopSearchDB/Page_Computers database/input_Computer database_searchsubmit""))",Chrome 119.0.0.0,,,2023-11-28 12:32:14,2023-11-28 12:32:15,0.860s,PASSED
+"click(findTestObject(""Object Repository/LaptopSearchDB/Page_Computers database/a_Dell Inspiron 560 Desktop Computer""))",Chrome 119.0.0.0,,,2023-11-28 12:32:15,2023-11-28 12:32:16,1.415s,PASSED
+takeFullPageScreenshot(),Chrome 119.0.0.0,,,2023-11-28 12:32:16,2023-11-28 12:32:18,1.453s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/LaptopSearchDB/Page_Computers database/select_-- Choose a company --Apple Inc.Thin_aed4be""), ""13"", true)",Chrome 119.0.0.0,,,2023-11-28 12:32:18,2023-11-28 12:32:20,2.445s,PASSED
+"click(findTestObject(""Object Repository/LaptopSearchDB/Page_Computers database/input_or_btn primary""))",Chrome 119.0.0.0,,,2023-11-28 12:32:20,2023-11-28 12:32:22,2.086s,PASSED
+"click(findTestObject(""Object Repository/LaptopSearchDB/Page_Computers database/a_Computer database""))",Chrome 119.0.0.0,,,2023-11-28 12:32:22,2023-11-28 12:32:24,1.115s,PASSED
+closeBrowser(),Chrome 119.0.0.0,,,2023-11-28 12:32:24,2023-11-28 12:32:24,0.937s,PASSED
+,,,,,,,
+Test Cases/LoginApplitools,Chrome 119.0.0.0,,,2023-11-28 12:32:25,2023-11-28 12:32:36,11.350s,PASSED
+"openBrowser("""")",Chrome 119.0.0.0,,,2023-11-28 12:32:25,2023-11-28 12:32:27,1.538s,PASSED
+"navigateToUrl(""https://demo.applitools.com/"")",Chrome 119.0.0.0,,,2023-11-28 12:32:27,2023-11-28 12:32:29,2.277s,PASSED
+maximizeWindow(),Chrome 119.0.0.0,,,2023-11-28 12:32:29,2023-11-28 12:32:29,0.145s,PASSED
+"setText(findTestObject(""Object Repository/ApplitetoolsLogin/Page_ACME Demo App by Applitools/input_Username_username""), ""Test123"")",Chrome 119.0.0.0,,,2023-11-28 12:32:29,2023-11-28 12:32:30,0.984s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/ApplitetoolsLogin/Page_ACME Demo App by Applitools/input_Password_password""), ""cvW8qx4B2o3F4VwP/kNsqA=="")",Chrome 119.0.0.0,,,2023-11-28 12:32:30,2023-11-28 12:32:31,0.718s,PASSED
+"click(findTestObject(""Object Repository/ApplitetoolsLogin/Page_ACME Demo App by Applitools/a_Sign in""))",Chrome 119.0.0.0,,,2023-11-28 12:32:31,2023-11-28 12:32:32,1.355s,PASSED
+"setText(findTestObject(""Object Repository/ApplitetoolsLogin/Page_ACME demo app/input_text""), ""Starbucks"")",Chrome 119.0.0.0,,,2023-11-28 12:32:32,2023-11-28 12:32:33,0.984s,PASSED
+"sendKeys(findTestObject(""Object Repository/ApplitetoolsLogin/Page_ACME demo app/input_text""), Keys.chord(ENTER))",Chrome 119.0.0.0,,,2023-11-28 12:32:33,2023-11-28 12:32:34,0.437s,PASSED
+"takeElementScreenshot(findTestObject(""ApplitetoolsLogin/Page_ACME demo app/span_View Statement""))",Chrome 119.0.0.0,,,2023-11-28 12:32:34,2023-11-28 12:32:35,0.792s,PASSED
+"click(findTestObject(""Object Repository/ApplitetoolsLogin/Page_ACME demo app/span_View Statement""))",Chrome 119.0.0.0,,,2023-11-28 12:32:35,2023-11-28 12:32:35,0.491s,PASSED
+closeBrowser(),Chrome 119.0.0.0,,,2023-11-28 12:32:35,2023-11-28 12:32:36,0.756s,PASSED
